@@ -1,6 +1,6 @@
-# React Colocation Evolution Slides
+# Starred with Javascript and ReactJS
 
-Slides of my talk about React Colocation Evolution.
+Slides of my talk about Javascript and ReactJS.
 
 ## Development
 

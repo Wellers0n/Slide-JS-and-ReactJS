@@ -21,7 +21,7 @@
     "image": "mdx-deck screenshot src/deck.mdx",
     "pdf": "mdx-deck pdf src/deck.mdx",
     "copy:static": "cp -r src/img dist",
-    "publish:deck": "yarn build && yarn copy:static && gh-pages -d dist",
+    "publish:deck": "yarn build && yarn copy:static && now dist/",
     "start": "mdx-deck src/deck.mdx",
     "postinstall": "patch-package"
   },
