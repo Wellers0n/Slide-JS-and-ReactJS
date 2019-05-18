@@ -1,4 +1,4 @@
-# Starred with Javascript and ReactJS
+# Starting with Javascript and ReactJS
 
 Slides of my talk about Javascript and ReactJS.
 
