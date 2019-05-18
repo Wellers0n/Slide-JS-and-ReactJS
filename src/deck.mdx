@@ -1,0 +1,187 @@
+import { Head, Image } from 'mdx-deck'
+import Code from 'mdx-code';
+import { CodeSurfer } from "mdx-deck-code-surfer";
+
+import { Cover } from './Cover';
+import { Intro } from './Intro';
+import { Es7 } from './es7';
+import { GoReact } from './goReact'
+import { WhatIsReact } from './whatIsReact'
+import { LifeCicle } from './lifeCicle'
+import { Question } from './question'
+import { Thanks } from './thanks'
+
+
+export { default as theme } from './theme'
+
+<Head>
+  <title>Intro ReactJS</title>
+</Head>
+
+<Cover />
+---
+<Intro />
+---
+<CodeSurfer
+  title="What is var, let and const?"
+  code={require('!raw-loader!./VarLetConst.js')}
+  showNumbers={false}
+  dark={true}
+  lang="jsx"
+  steps={[
+    { notes: "Let's see it" },
+    { range: [1,1], notes: 'What would be `Var`' },
+    { range: [10,16], notes: 'With scope global' },
+    { range: [2,2], notes: 'What would be `Let`' },
+    { range: [18,22], notes: 'Without scope global' },
+    { range: [3,3], notes: 'What would be `Const`' },
+    { range: [5,7], notes: 'Would be a constant' },
+    { notes: "let's go" },
+  ]}
+/>
+---
+<CodeSurfer
+  title="Class and methods"
+  code={require('!raw-loader!./class.js')}
+  showNumbers={false}
+  dark={true}
+  lang="jsx"
+  steps={[
+    { notes: "Let's see it" },
+    { range: [1,16], notes: 'We have two class' },
+    { range: [2,10], notes: 'Class animal' },
+    { range: [12,17], notes: 'Class Dog extends Animal' },
+    { range: [19,20], notes: 'Instance from class' },
+    { range: [22,38], notes: 'Getters and Setters' },
+    { range: [40,46], notes: 'Output from class Thing ' },
+    { notes: "Go next" },
+  ]}
+/>
+
+---
+
+<CodeSurfer
+  title="Object"
+  code={require('!raw-loader!./object.js')}
+  showNumbers={false}
+  dark={true}
+  lang="jsx"
+  steps={[
+    { notes: "Let's see it" },
+    { range: [1,9], notes: 'This is an object' },
+    { range: [11,14], notes: 'Output of how it work' },
+    { notes: "Go next" },
+  ]}
+/>
+
+---
+
+<CodeSurfer
+  title="Function"
+  code={require('!raw-loader!./function.js')}
+  showNumbers={false}
+  dark={true}
+  lang="jsx"
+  steps={[
+    { notes: "Let's see it" },
+    { range: [1,5], notes: 'This is an function' },
+    { range: [7,11], notes: 'Function of sum' },
+    { notes: "Go next" },
+  ]}
+/>
+
+---
+
+<CodeSurfer
+  title="Arrow function"
+  code={require('!raw-loader!./arrowFunction.js')}
+  showNumbers={false}
+  dark={true}
+  lang="jsx"
+  steps={[
+    { notes: "Let's see it" },
+    { range: [1,11], notes: 'This is an arrow function' },
+    { range: [13,23], notes: 'Function normal' },
+    { range: [26,36], notes: 'What an arrow function resolve?' },
+    { notes: "Go next" },
+  ]}
+/>
+
+---
+
+<Es7/>
+
+---
+
+<GoReact/>
+
+---
+
+<WhatIsReact/>
+
+---
+
+<CodeSurfer
+  title="Syntax default React"
+  code={require('!raw-loader!./sintaxReact.js')}
+  showNumbers={false}
+  dark={true}
+  lang="jsx"
+  steps={[
+    { notes: "let's see react syntax" },
+    { range: [1,1], notes: 'import the ReactJS and Component' },
+    { range: [3,3], notes: 'Extends component' },
+    { range: [4,7], notes: 'Constructor default' },
+    { range: [8,14], notes: 'Method render' },
+    { notes: "Next" },
+  ]}
+/>
+
+---
+
+<CodeSurfer
+  title="State"
+  code={require('!raw-loader!./state.js')}
+  showNumbers={false}
+  dark={true}
+  lang="jsx"
+  steps={[
+    { notes: "let's see the state" },
+    { range: [4,7], notes: 'Constructor default' },
+    { range: [6,9], notes: 'State' },
+    { range: [9,24], notes: 'Method render default' },
+    { range: [16,18], notes: 'Using the state' },
+    { range: [19,21], notes: 'Set state' },
+    { notes: "Next" },
+  ]}
+/>
+
+---
+
+<CodeSurfer
+  title="Props"
+  code={require('!raw-loader!./props.js')}
+  showNumbers={false}
+  dark={true}
+  lang="jsx"
+  steps={[
+    { notes: "let's see the props" },
+    { range: [16,27], notes: 'Component header' },
+    { range: [24,24], notes: 'Props name' },
+    { range: [3,14], notes: 'Container main' },
+    { range: [11,11], notes: 'Defining the props name on header' },
+    { notes: "Next" },
+  ]}
+/>
+
+---
+
+<LifeCicle/>
+
+--- 
+---
+<Question/>
+
+---
+
+<Thanks/>
