@@ -43,8 +43,8 @@ export const Cover = () => (
   <Root>
     <Center>
       <ImgCenter>
-        <Img src={"./img/js.png"}  width={200}  /> 
-        <Img src={"./img/react.png"} width={200}/>
+        <Img src={"./img/js.png"}  width={200} height={200}  /> 
+        <Img src={"./img/react.png"} width={200} height={200} />
       </ImgCenter>
       <Title mt={20}>Intro to javascript and reactJS</Title>
       <Subtitle mt={20}>Go</Subtitle>

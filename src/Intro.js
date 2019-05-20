@@ -99,7 +99,7 @@ export const Intro = () => (
     </SpaceBetween>
    
     <Flex flex={1} alignItems='center' justifyContent='center' mt={30}>
-      <MeName>Software Development</MeName>
+      <MeName>Software Developer</MeName>
     </Flex>
   </Root>
 );

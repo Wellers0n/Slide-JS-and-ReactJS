@@ -37,7 +37,7 @@ export const GoReact = () => (
   <Root>
     <Center>
       <ImgCenter>
-        <Img src={"./img/react.png"} width={200}/>
+        <Img src={"./img/react.png"} width={200} height={200}/>
       </ImgCenter>
       <Title mt={20}>Let's go ReactJS</Title>
     </Center>
